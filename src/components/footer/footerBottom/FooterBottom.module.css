@@ -1,0 +1,54 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.images {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 60px;
+}
+
+.initiative {
+  width: 72px;
+}
+
+.fondation {
+  width: 146px;
+}
+
+.philantropy {
+  width: 110px;
+}
+
+.copyright {
+  height: 75px;
+  padding: 20px 0;
+  background-color: #d50032;
+}
+
+.content {
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.github {
+  font-size: 22px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.year {
+  font-size: 24px;
+  color: #fff;
+}
+
+.logo {
+  width: 100px;
+}

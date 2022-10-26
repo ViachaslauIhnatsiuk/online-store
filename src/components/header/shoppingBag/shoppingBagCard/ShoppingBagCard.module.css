@@ -1,0 +1,57 @@
+.wrapper {
+  position: relative;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.count {
+  min-width: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.image {
+  width: 130px;
+  height: 130px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding-right: 35px;
+  row-gap: 10px;
+}
+
+.title {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.description {
+  font-size: 13px;
+}
+
+.price {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.close__icon {
+  position: absolute;
+  top: -5px;
+  right: 0;
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+  border-radius: 50%;
+  border: 1px solid #e6e6e6;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.close__icon:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+}

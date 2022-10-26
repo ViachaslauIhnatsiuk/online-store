@@ -1,0 +1,25 @@
+.filter__option {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  cursor: default;
+}
+
+.filter__checkbox {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #000;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.filter__checked {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  z-index: -5;
+  width: 16px;
+  height: 16px;
+}

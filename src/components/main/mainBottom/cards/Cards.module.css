@@ -1,0 +1,72 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards__wrapper {
+  flex: 1 1 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.cards__counter {
+  margin-bottom: 20px;
+  font-size: 19px;
+}
+
+.cards__counter span {
+  font-size: 15px;
+}
+
+.warning {
+  margin: 0 auto;
+  padding-top: 50px;
+  font-size: 40px;
+}
+
+.cards__filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.cards__filter {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  padding: 5px 10px;
+  border: 1px solid #000;
+  cursor: default;
+}
+
+.cards__clear {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  padding: 5px 10px;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.cards__clear:hover {
+  background-color: #000;
+}
+
+.cards__clear:hover .clear__title {
+  color: #fff;
+}
+
+.clear__title {
+  line-height: 100%;
+}
+
+.cards__clear:hover .clear__close {
+  stroke: #fff;
+  fill: #fff;
+}
+
+.clear__close {
+  width: 13px;
+}
